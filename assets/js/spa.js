@@ -1,7 +1,7 @@
 angular.module('Platzi', []);
 angular.module('Platzi').controller('BaseCtrl', ['$scope', function ($scope){
 
-  io.socket.get('/emoji').then(function (data) {
+  io.socket.get('/emoji', function (data) {
     $scope.emojis = data;
     $scope.$apply();
   })
