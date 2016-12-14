@@ -15,7 +15,7 @@ angular.module('Platzi').controller('BaseCtrl', ['$scope', function ($scope){
               break;
       }
   })
-  //fake emijis
+  //fake emojis
   // $scope.emojis = [{
   //   text: '8)'
   // },{
